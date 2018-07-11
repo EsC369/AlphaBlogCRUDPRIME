@@ -1,0 +1,111 @@
+$navbar-default-bg: rgb(126, 0, 0);
+// Any changing to the actual bootstrap must go above the sprockets
+// Anything else within the bootstrap can go below
+
+
+@import "bootstrap-sprockets";
+@import "bootstrap";
+
+#alphaText{
+    color: red;
+    text-shadow: 1px 1px rgb(255, 238, 3);
+}
+
+#logo{
+    float: left;
+    font-size: 1.7em;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: -1px;
+    font-weight: bold;
+}
+
+#logo:hover{
+    color: orangered;
+    text-decoration: none;
+}
+
+.center{
+    text-align: center;
+}
+
+.jumbotron{
+    background-image: asset-url("cover_page.png");
+    // code to fit the image
+    background-size: cover;
+    height: 500px;
+    padding-top: 150px;
+}
+.btn-xlarge2{
+    border-style: solid;
+    border-color: red;
+    border-width: 1px;
+    color: white;
+    // color:rgb(3, 0, 2);
+    font-size: 1.7em;
+    background-color: black;
+    // background: linear-gradient(rgb(4, 224, 240), yellow);
+    text-shadow: 1px 1px red;
+    box-shadow: 2px 3px black;
+}
+
+.btn-xlarge{
+    border-style: solid;
+    border-color: red;
+    border-width: 1px;
+    color:white;
+    font-size: 1.7em;
+    background-color: black;
+    // background: linear-gradient(rgb(248, 120, 0), rgb(217, 255, 0));
+    text-shadow: 1px 1px red;
+    box-shadow: 2px 3px black;
+}
+
+footer{
+    border-top: 1px solid #eaeaea;
+    color: #777;
+}
+
+footer a:hover{
+    color: #222;
+}
+
+#navcolor{
+    color: rgb(248, 120, 0);
+    font-weight: bold;
+}
+
+#navcolor:hover{
+    color: rgb(1, 253, 64);
+    text-decoration: none;
+}
+
+li{
+    color: red;
+}
+
+.time{
+    color: green;
+}
+
+.artBy{
+    color: rgb(255, 94, 0);
+    font-weight: bold;
+}
+
+.listing{
+    list-style: none;
+    padding-left: 0;
+    text-align: center;
+}
+
+.navcolor2{
+    color: rgb(248, 120, 0);
+    font-weight: bold;
+}
+
+.navcolor2:hover{
+    color: orangered;
+    text-decoration: none;
+}
+

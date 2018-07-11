@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<h1 align="center">Listing All Articles</h1>
+<p align="center"><%= link_to "Create New article", new_article_path, class: "btn btn-xs btn-success" %> 
+<table class = "border">
+
+<div align="center">
+    <%= will_paginate %>
+</div>
+
+<%# what were doing below is saying that when the obj is called user @articles as value for obj %>
+<%= render 'article', obj: @articles %>
+<div align="center">
+    <%= will_paginate %>
+</div>
+
+</html>
